@@ -1546,7 +1546,8 @@ li{
     font-weight: 700;
     line-height: 80px;
     letter-spacing: -2px;
-    position: relative;
+    position: absolute;
     top: 10px;
     left: 200px;
 }
+

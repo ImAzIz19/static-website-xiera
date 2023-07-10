@@ -1,0 +1,126 @@
+@media screen and (max-width: 576px) {
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    body{
+        width:390px  ;
+        height: 3290px ;
+        border-radius: 60px ;
+        margin: 0;
+        background: #FFF;
+    }
+    .vect{
+        width: 15px ;
+        height: 16px ;
+        color: #FF764A;
+        margin-top: -56px  ;
+        margin-left: -122px;
+    }
+    .vect2{
+        width: 34px ;
+        height: 10px ;  
+        margin-top: -56px  ;
+        margin-left: -138px;
+    }
+    .button1{
+        display: flex;
+        width: 25px;
+        height: 8px;
+        flex-direction: column;
+        color: #28344A;
+        text-align: right;
+        font-family: Inter;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.04px;
+        margin-top: -56px  ;
+        margin-left: -787px;    
+    }
+    .button2{
+        display: flex;
+        width: 80   px;
+        height: 8px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #FFF9F8;
+        text-align: center;
+        font-family: Inter;
+        font-size: 6px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.04px;
+        margin-top: -54px  ;
+        margin-left: -842px;    
+    }
+    .button22{
+        width: 50.636px;
+        height: 18px;
+        flex-shrink: 0;
+        border-radius: 34px;
+        background: #864BD8;
+        margin-top: -40px  ;
+        margin-left: -820px;
+    }
+    .class3{
+        width: 210px;
+        height: 63px;
+        flex-shrink: 0;
+        background-color: #FF764A;
+        margin-left: -280px;
+        margin-top: -50px;
+    }
+    .para1{
+        display: flex;
+        width: 210px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #1F1F1F;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: -0.5px;
+    }
+    .para2{ 
+        display: flex;
+        width: 117.25px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #5B5A62;
+        text-align: center;
+        font-family: Inter;
+        font-size: 4.5px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 7px;
+    }
+    .spano{
+        width: 26.5px;
+        height: 26.5px;
+        flex-shrink: 0;
+        margin-left: -325px;
+        margin-top: -55px;
+    }
+    .para11{
+        display: flex;
+        width: 117.25px;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #5B5A62;
+        text-align: center;
+        font-family: Inter;
+        font-size: 4.5px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 7px;
+        margin-top: -55px;
+        margin-left: -350px;
+    }
+}
