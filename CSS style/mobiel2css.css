@@ -1,4 +1,4 @@
-@media (min-width: 390px) and (max-width: 394px)  {
+@media (min-width: 411px) and (max-width: 415px)  {
     *{
         margin: 0;
         padding: 0;
@@ -118,7 +118,7 @@
         letter-spacing: -0.1px;
         position: absolute;
         top: 10px;
-        left: 309px;
+        left: 325px;
     }
     .button2{
         display: flex;
@@ -136,7 +136,7 @@
         letter-spacing: -0.1px;
         position: absolute;
         top: 10px;
-        left: 215px;
+        left: 230px;
     }
     .button22{
         width: 110px;
@@ -146,7 +146,7 @@
         background: #864BD8;
         position: absolute;
         top: 3px;
-        left: 210px;
+        left: 225px;
     }
     .class3{
         width: 100%;
@@ -169,7 +169,7 @@
         color: #1F1F1F;
         text-align: center;
         font-family: Montserrat;
-        font-size: 36px;
+        font-size: 43px;
         font-style: normal;
         font-weight: 700;
         line-height: 34.5px;
@@ -179,7 +179,7 @@
         flex-shrink: 0;
         position: relative;
         top: -40px;
-        left:219px   ;
+        left:235px   ;
     }
     .para11{
         display: flex;
@@ -190,32 +190,32 @@
         color: #1F1F1F;
         text-align: center;
         font-family: Montserrat;
-        font-size: 36px;
+        font-size: 43px;
         font-style: normal;
         font-weight: 700;
         line-height: 34.5px;
         letter-spacing: -2px;
         position: absolute;
         top: 35px;
-        left: 100px;
+        left: 120px;
     }
     .para2{ 
-        margin-top: 10px;
+        margin-top: 15px;
         display: flex;
-        width: 339px;
+        width: 100%;
         height: 40px;
         flex-direction: column;
         flex-shrink: 0;
         color: #5B5A62;
         text-align: center;
         font-family: Inter;
-        font-size: 15px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 16.5px;
         position: relative;
         top: 25px;
-        left: 24px;
+        left: 0px;
     }
     .class4{
         display: flex;
@@ -227,7 +227,7 @@
         flex-shrink: 0;
         position: absolute;
         top: 203px;
-        left: 1px;
+        left: 10px;
     }
     .button3{
         display: flex;
@@ -404,7 +404,7 @@
         border-radius: 19.5px;
         position: absolute;
         top: 310px;
-        left: 0px;
+        left: 10px;
     }
     .firsthead{
         color: #1F1F1F;
@@ -523,37 +523,37 @@
     } 
     .head2{
         display: flex;
-        width: 204px;
+        width: 100%;
         flex-direction: column;
         flex-shrink: 0;
         color: #0D8772;
         text-align: center;
         font-family: Poppins;
-        font-size: 20px;
+        font-size: 25px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
         letter-spacing: 3.4px;
         position: absolute;
         top: 0;
-        left: 94px;
+        left: 0%;
     }
     .para3{
         display: flex;
-        width: 390px;
+        width: 100%;
         flex-direction: column;
         flex-shrink: 0;
         color: #292929;
         text-align: center;
         font-family: Montserrat;
-        font-size: 32px;
+        font-size: 38px;
         font-style: normal;
         font-weight: 700;
         line-height: 30px;
         letter-spacing: -0.5px;
         position: absolute;
-        left: 1px;
-        top: 28px;
+        left: 5px;
+        top: 35px;
     }
     .card{
         margin-top: 30px;
@@ -562,7 +562,7 @@
         flex-shrink: 0;
         position: absolute;
         top: 97px;
-        left: 0;
+        left: 8px;
         display: flex;
         flex-flow: row wrap;
     }
@@ -636,17 +636,18 @@
         margin-top: 10px;
         color: #864BD8;
         font-family: Poppins;
-        font-size: 20px;
+        font-size: 28px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
         letter-spacing: 3.4px;
         position: absolute;
         top: 0;
-        left: 104px;
+        left: 75px;
     }
     .titel2{
-        margin-top: 15px;
+        width: 100%;
+        margin-top: 20px;
         color: #292929;
         font-family: Inter;
         font-size: 48px;
@@ -655,11 +656,11 @@
         line-height: 25px;
         letter-spacing: -0.5px;
         position: absolute;
-        left: 30px;
+        left: 10%;
         top: 41px;
     }
     .titel3{
-        margin-top: 15px;
+        margin-top: 20px;
         color: #5B5A62;
         font-family: Inter;
         font-size: 20px;
@@ -669,14 +670,14 @@
         letter-spacing: -0.2px;
         position: absolute;
         top: 89px;
-        left: 20px;
+        left: 30px;
     }
     .jobzone{
         width: 100%;
         height: 900px;
         flex-shrink: 0;
         position: absolute;
-        left: 12%;
+        left: 14%;
         top: 125px;
         display: flex;
         gap: 17.5px   ;
@@ -925,7 +926,7 @@
         background: #864BD8;
         position: absolute;
         top: 1260px;
-        left: 122px;
+        left: 135px;
 
     }
     .button4{
@@ -978,7 +979,7 @@
         font-style: normal;
         font-weight: 600;
         line-height: normal;
-        margin-left: 20%;
+        margin-left: 25%;
     }
     .categorystyle{
         display: flex;
@@ -995,24 +996,24 @@
         line-height: 30px;
         letter-spacing: 1px;
         position: absolute;
-        left: 0;
+        left: 8px;
     }
     .pcstyle{
         margin-top: 20px;
         display: flex;
-        width: 390px;
+        width: 100%;
         height: 32px;
         flex-direction: column;
         flex-shrink: 0;
         color: #5B5A62;
         text-align: center;
         font-family: Inter;
-        font-size: 16px;
+        font-size: 17px;
         font-style: normal;
         font-weight: 400;
         line-height: 18.5px;
         position: absolute;
-        left: 0px;
+        left: 5px;
         top: 70px;
     }
     .catzone{
@@ -1022,11 +1023,10 @@
         flex-shrink: 0;
         position: absolute;
         top: 122px;
+        left: 10px;
         gap: 20px   86.5px  ;
         display: flex;
         flex-flow: column wrap;
-
-
     }
     .catbox{
         margin-top: 1px;
@@ -1164,7 +1164,7 @@
         background-color: #EDE8F3;
         position: absolute;
         top: 1480px;
-        left: 121px;
+        left: 125px;
     }
     .cattrec{
         width: 47px;
@@ -1369,12 +1369,12 @@
         color: #292929;
         text-align: center;
         font-family: Montserrat;
-        font-size: 35px;
+        font-size: 38px;
         font-style: normal;
         font-weight: 700;
         line-height: 30px;
         letter-spacing: -0.5px;
-
+        margin-left: 5px;
     }
     .testimonial-main{
         margin-top: 150px;
@@ -1386,6 +1386,7 @@
         background: rgba(199, 193, 193, 0.00);
         position: absolute;
         top: -13px;
+        left:  3%;
         display: flex;
         flex-flow: column wrap;
         align-items: center;
