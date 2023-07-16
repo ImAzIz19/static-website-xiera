@@ -4,7 +4,12 @@
 *{
     flex-shrink: 0;
 }
-.iconn22{
+.headdd a.iconn22{
+    color: #FF764A;
+    font-size: 30px;
+    position: absolute;
+    left: 25px;
+    top: -100px;
 }
 body{
     width: 1440px ;
