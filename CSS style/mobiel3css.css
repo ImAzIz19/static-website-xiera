@@ -6,8 +6,8 @@
     }
     body{
         overflow-x: hidden;
-        width:100%  ;
-        height: 110% ;
+        max-width:100%  ;
+        height: 100% ;
         border-radius: 60px ;
         margin: 0;
         background: #FFF;
@@ -1818,6 +1818,25 @@
         display: none;
     }
     .arr2{
+        display: none;
+    }
+    .arrow{
+        display: none;
+        width: 61px;
+        height: 61px;
+        flex-shrink: 0;
+        position: absolute;
+        right: 81px;
+    }
+    .arrow2{
+        display: none;
+        flex-shrink: 0;
+        position: absolute;
+        left: 40px;
+        top: -15px;
+        color: #F57343 ;
+    }
+    .next{
         display: none;
     }
 
