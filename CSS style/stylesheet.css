@@ -4,6 +4,8 @@
 *{
     flex-shrink: 0;
 }
+.iconn22{
+}
 body{
     width: 1440px ;
     height: 6295px ;
@@ -24,8 +26,6 @@ nav{
     height: 56px ;
     position: absolute;
     left: 45px;
-    border-radius: 34px ;
-
 
 }
 .vect{
@@ -1576,7 +1576,7 @@ li{
     top: 10px;
     left: 200px;
 }
-.icon{
+.mobielnav{
     display: none;
 }
 
