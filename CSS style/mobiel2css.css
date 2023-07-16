@@ -5,6 +5,7 @@
         border: 0;
     }
     body{
+        overflow-x: hidden;
         width:100%  ;
         height: 110% ;
         border-radius: 60px ;
@@ -580,7 +581,7 @@
     }
     .icon1{
         width: 80px;
-        height: 64.478px;
+        height: 75px;
         flex-shrink: 0;
         position: relative;
         top: 37px;
@@ -1569,19 +1570,13 @@
         left: 15%;
     }
     .newemail::placeholder{
-        display: flex;
-        width: 143px;
-        height: 8px;
-        flex-direction: column;
-        flex-shrink: 0;
-        color: #A3A2A8;
-        font-family: Poppins;
+        padding: 2px;
+        color: #A3A2A8 ;
         font-size: 14px;
-        font-style: normal;
+        font-family: Poppins;
         font-weight: 500;
-        line-height: normal;
-        letter-spacing: 0.1px;
-        position: relative;
+        opacity: 0.5;
+        letter-spacing: 0.14px;
     }
     .newbutton{
         margin-top: 25px;

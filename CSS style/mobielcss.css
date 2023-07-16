@@ -5,8 +5,9 @@
         border: 0;
     }
     body{
-        width:100%  ;
-        height: 110% ;
+        overflow-x: hidden;
+        width:100%   ;
+        height: 100% ;
         border-radius: 60px ;
         margin: 0;
         background: #FFF;
@@ -20,7 +21,9 @@
         top: 0px;
     }
     .topnav {
-        height: 85px;
+        display: flex;
+        flex-flow: column ;
+        overflow: hidden;
         position: relative;
         top: 0px;
         left: 0px;
@@ -30,13 +33,15 @@
         display: none;
     }
     .topnav a.icon {
-        color: #FF764A;
+        background-color: black;
+        font-size: 20px;
         display: block;
         position: absolute;
-        top: 50%;
+        top: 12%;
         left: 5%;
     }
     .topnav a:hover {
+        background-color: #ddd;
         color: black;
     }
     .active {
@@ -49,9 +54,7 @@
         top: -50px;
     }
     .list1{
-        position: absolute;
-        top: 41.5px;
-        left: 15%;
+
         display: flex;
         width: 100px;
         height: 17.249px;
@@ -60,9 +63,7 @@
 
     }
     .list2{
-        position: absolute;
-        top: 41.5px;
-        left: 40%;
+
         display: flex;
         width: 120px;
         height: 17.249px;
@@ -71,9 +72,7 @@
 
     }
     .list3{
-        position: absolute;
-        top: 41.5px;
-        left: 70%;
+
         display: flex;
         width: 66px;
         height: 16px;
@@ -93,13 +92,13 @@
         color: #FF764A;
         position: absolute;
         top: 4px;
-        left: 5%;
+        left: 15%;
     }
     .vect2{
         width: 70px ;
         height: 20px ;
         position: absolute;
-        left: 13%;
+        left: 24%;
         top: 7.5px;
     }
     .button1{
@@ -116,9 +115,7 @@
         font-weight: 600;
         line-height: normal;
         letter-spacing: -0.1px;
-        position: absolute;
-        top: 10px;
-        left: 309px;
+
     }
     .button2{
         display: flex;
@@ -134,9 +131,7 @@
         font-weight: 600;
         line-height: normal;
         letter-spacing: -0.1px;
-        position: absolute;
-        top: 10px;
-        left: 215px;
+
     }
     .button22{
         width: 110px;
@@ -144,9 +139,7 @@
         flex-shrink: 0;
         border-radius: 34px;
         background: #864BD8;
-        position: absolute;
-        top: 3px;
-        left: 210px;
+
     }
     .class3{
         width: 100%;
@@ -580,7 +573,7 @@
     }
     .icon1{
         width: 80px;
-        height: 64.478px;
+        height: 70px;
         flex-shrink: 0;
         position: relative;
         top: 37px;
@@ -1550,6 +1543,7 @@
         left: 12%;
     }
     .newemail{
+        padding: 2px;
         display: flex;
         width: 200px;
         height: 25px;
@@ -1568,19 +1562,13 @@
         left: 15%;
     }
     .newemail::placeholder{
-        display: flex;
-        width: 143px;
-        height: 8px;
-        flex-direction: column;
-        flex-shrink: 0;
-        color: #A3A2A8;
-        font-family: Poppins;
+        padding: 2px;
+        color: #A3A2A8 ;
         font-size: 14px;
-        font-style: normal;
+        font-family: Poppins;
         font-weight: 500;
-        line-height: normal;
-        letter-spacing: 0.1px;
-        position: relative;
+        opacity: 0.5;
+        letter-spacing: 0.14px;
     }
     .newbutton{
         margin-top: 25px;
@@ -1622,6 +1610,7 @@
         left: 0;
     }
     .Ellipse{
+        display: none;
         width: 15px;
         height: 15px;
         flex-shrink: 0;
@@ -1816,6 +1805,22 @@
     }
     .arr2{
         display: none;
+    }
+    .arrow{
+        display: none;
+        width: 61px;
+        height: 61px;
+        flex-shrink: 0;
+        position: absolute;
+        right: 81px;
+    }
+    .arrow2{
+        display: none;
+        flex-shrink: 0;
+        position: absolute;
+        left: 40px;
+        top: -15px;
+        color: #F57343 ;
     }
 
 }
