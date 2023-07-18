@@ -14,6 +14,14 @@
     .nqqqq{
         display: none;
     }
+    .fix{
+        width: 100%;
+        height: 35px;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
     .headdd a.iconn22{
         color: #FF764A;
         font-size: 30px;
