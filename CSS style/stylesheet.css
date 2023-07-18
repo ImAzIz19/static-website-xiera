@@ -4,6 +4,9 @@
 *{
     flex-shrink: 0;
 }
+.mobielp{
+    display: none;
+}
 .headdd a.iconn22{
     color: #FF764A;
     font-size: 30px;
